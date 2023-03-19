@@ -1,0 +1,41 @@
+{
+  "name": "Watch Later Shortcut for YouTube™",
+  "version": "1.0",
+  "author": "mihailzachepilo@gmail.com",
+  "description": "Add and remove current video from the Watch Later list using a keyboard shortcut.",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://.youtube.com/*", "https://www.youtube.com/*"],
+  "icons": {
+    "32": "/icons/32.png",
+    "128": "/icons/128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://youtube.com/*",
+        "https://www.youtube.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "commands": {
+    "add-to-watch-later": {
+      "suggested_key": {
+        "default": "Alt+Shift+L",
+        "mac": "Alt+Shift+L"
+      },
+      "description": "Add the current video from the Watch Later list."
+    },
+    "remove-from-watch-later": {
+      "suggested_key": {
+        "default": "Alt+L",
+        "mac": "Alt+L"
+      },
+      "description": "Remove the current video from the Watch Later list."
+    }
+  },
+  "background": {
+      "service_worker": "background.js"
+  }
+}
