@@ -13,6 +13,10 @@ For Windows:
 - <kbd>Alt</kbd> + <kbd>⇧ Shift</kbd> + <kbd>L</kbd> to Add
 - <kbd>Alt</kbd> + <kbd>L</kbd> to Remove
 
+For Chrome OS:
+- <kbd>Alt</kbd> + <kbd>K</kbd> to Add
+- <kbd>Alt</kbd> + <kbd>L</kbd> to Remove
+
 Shortcuts can be changed in the extension's options at: [chrome://extensions/shortcuts](chrome://extensions/shortcuts)
 
 As the result, notification should appear:
