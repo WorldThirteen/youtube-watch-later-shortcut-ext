@@ -4,18 +4,11 @@
   "author": "mihailzachepilo@gmail.com",
   "description": "Add and remove current video from the Watch Later list using a keyboard shortcut.",
   "manifest_version": 3,
-  "permissions": [],
-  "host_permissions": ["https://www.youtube.com/*"],
+  "permissions": ["scripting", "activeTab"],
   "icons": {
     "32": "/icons/32.png",
     "128": "/icons/128.png"
   },
-  "content_scripts": [
-    {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["content.js"]
-    }
-  ],
   "commands": {
     "add-to-watch-later": {
       "suggested_key": {
