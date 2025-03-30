@@ -12,8 +12,13 @@ function executeYouTubeCommand(action) {
   });
 
   const sendActionToNativeYouTubeHandler = (getParams) => {
-    const videoId = new URL(window.location.href).searchParams.get("v");
+    const location = new URL(window.location.href);
     const appElement = document.querySelector("ytd-app");
+    let videoId = location.searchParams.get("v");
+
+    if (location.pathname.startsWith("/shorts/")) {
+      videoId = location.pathname.split("/")[2];
+    }
 
     if (!videoId || !appElement) {
       return;

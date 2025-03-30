@@ -8,7 +8,7 @@
 
 **Minimal. Simple. Sufficient.**
 
-Enables shortcuts to add and remove currently watching video from the Watch Later playlist.
+Enables shortcuts to add and remove currently watching video or YouTube Shorts from the Watch Later playlist.
 
 For Mac:
 - <kbd>⌥ Option</kbd> + <kbd>⇧ Shift</kbd> + <kbd>L</kbd> to Add
@@ -31,3 +31,8 @@ As a result, the notification should appear:
 ----
 
 <img alt="instruction" src="https://github.com/WorldThirteen/youtube-watch-later-shortcut-ext/assets/14346393/19b52d9d-9a01-469f-ab50-861871f66d2a">
+
+## Changelog
+### Version 1.2 - 30 March 2025
+- Now supports YouTube Shorts
+
