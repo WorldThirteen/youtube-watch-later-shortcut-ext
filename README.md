@@ -8,7 +8,7 @@
 
 **Minimal. Simple. Sufficient.**
 
-Enables shortcuts to add and remove currently watching video or short from the Watch Later playlist.
+Enables shortcuts to add and remove currently watching video or YouTube Shorts from the Watch Later playlist.
 
 For Mac:
 - <kbd>⌥ Option</kbd> + <kbd>⇧ Shift</kbd> + <kbd>L</kbd> to Add
